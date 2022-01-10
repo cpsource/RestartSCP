@@ -1,0 +1,12 @@
+*~
+all-present.sh
+cp-restart.sh
+files.restart
+rebuild.sh
+restart
+restart.h
+source.sha256sum
+tst.sh
+xa*
+
+
