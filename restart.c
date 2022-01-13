@@ -170,7 +170,7 @@ int main(int argc, char *argv[] ) {
   fprintf(outf,"do\n");
   fprintf(outf,"  cat $i >> %s\n",fil);
   fprintf(outf,"done\n");
-  fprintf(outf,"./sum %s %s\n",sha,fil);
+  fprintf(outf,"./sum.sh %s %s\n",sha,fil);
   fprintf(outf,"if [ $? -ne 0 ]; then\n");
   fprintf(outf,"  echo \"sha256 sum of %s incorrect\"\n",fil);
   fprintf(outf,"  exit 1\n");
